@@ -1,0 +1,1 @@
+bash: ./interacter.py: Отказано в доступе
