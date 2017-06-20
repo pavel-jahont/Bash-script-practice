@@ -1,0 +1,29 @@
+#!/bin/bash
+
+
+var1=$var
+
+
+if [[ var1 -eq 0 ]];
+then
+    echo "No students"
+
+elif [[ var1 -eq 1 ]];
+then
+    echo "1 student"
+
+elif [[ var1 -eq 2 ]];
+then
+    echo "2 students"
+
+elif [[ var1 -eq 3 ]];
+then 
+    echo "3 students"
+
+elif [[ var1 -eq 4 ]];
+then
+    echo "4 students"
+
+else
+    echo "A lot of students"
+fi
