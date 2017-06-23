@@ -1,0 +1,31 @@
+#!/bin/bash
+
+do
+    echo "enter your name:"
+    read name
+    if [[ name ==]]
+
+
+do
+    echo "enter your name:"
+    read name
+    echo "enter your age:"
+    read age
+    if [[ name == "" ]] || [[ age -eq 0 ]]
+    then
+        echo "bye"
+        break
+    fi
+    if [[ age -gt 0 ]] && [[ age -le 16 ]]
+    then
+        echo "name, your group is child"
+    fi
+    if [[ age -ge 17 ]] && [[ age -le 25 ]]
+    then
+        echo "name, your group is youth"
+    fi
+    if [[ age -gt 25 ]]
+    then
+        echo "name, your group is adult"
+    fi
+done
